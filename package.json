@@ -1,0 +1,30 @@
+{
+  "name": "javascript_website_constructor",
+  "version": "1.0.0",
+  "description": "javascript website constructor",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "serve": "webpack-dev-server --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VitaliiKalinbet/javascript_website_constructor.git"
+  },
+  "keywords": [
+    "js",
+    "javascript"
+  ],
+  "author": "Vitalii Kalinbet <bosssvit@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VitaliiKalinbet/javascript_website_constructor/issues"
+  },
+  "homepage": "https://github.com/VitaliiKalinbet/javascript_website_constructor#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^4.4.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
